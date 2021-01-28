@@ -1,0 +1,2 @@
+ex01/out.jsp 를 다음처럼 refactoring 한다.
+out 객체를 제거한다.

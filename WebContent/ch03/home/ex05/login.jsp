@@ -5,6 +5,6 @@
 	<button type='submit'>로그인</button>
 </form>
 <%
-	Object msg = request.getParameter("msg");
+	String msg = request.getParameter("msg");
 	if(msg != null) out.println(msg);
 %>

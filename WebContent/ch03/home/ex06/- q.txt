@@ -2,6 +2,6 @@
 장바구니에서 물건을 꺼낸다.
 
 main.html - 상품 목록을 조회한다.
-cartProc.jsp - 장바구니에 물건을 담는다.
+cartAddProc.jsp - 장바구니에 물건을 담는다.
 cartOut.jsp - 장바구니 안의 물건들을 조회한다.
 cartDelProc.jsp - 장바구니에서 일부 물건을 꺼낸다.

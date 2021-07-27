@@ -6,7 +6,7 @@
 	for(Cookie cookie: cookies) {
 		if(cookie.getName().equals("name") || cookie.getName().equals("age")) {	
 %>
-			<%= cookie.getName() %>, <%= cookie.getValue() %><br>
+			<%= cookie.getName() %>: <%= cookie.getValue() %><br>
 <%
 		}
 	}

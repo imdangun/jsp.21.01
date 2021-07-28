@@ -2,9 +2,9 @@
 <!DOCTYPE configuration PUBLIC './/mybatis.org//DTD config 3.0//EN'
 	'http://mybatis.org/dtd/mybatis-3-config.dtd'>
 <configuration>
-	<properties resource='ch05/config/jdbc.properties'>
-		<property name='driver' value='oracle.jdbc.driver.OracleDriver'/>
-	</properties>	
+	<properties resource='ch05/config/jdbc.properties'/>	
+	
+	<typeAliases></typeAliases>
 	
 	<environments default='development'>
 		<environment id='development'>
@@ -16,9 +16,10 @@
 				<property name='password' value='${password}'/>
 			</dataSource>
 		</environment>
-	</environments>
+	</environments>	
 	
 	<mappers>
-		<mapper resource='ch05/dao/map/todayMap.xml'/>		
+		<mapper resource='ch05/dao/map/todayMap.xml'/>
+		<mapper resource='ch05/dao/map/employeeMap.xml'/>			
 	</mappers>
 </configuration>
